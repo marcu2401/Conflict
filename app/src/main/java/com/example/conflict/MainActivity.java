@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         kuldes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(MainActivity.this, feldolgoz.class);
+                Intent i=new Intent(MainActivity.this, FeldogozoActivity.class);
 
                 i.putExtra("valami" ,valami.getText().toString());
                 startActivity(i);
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    private int osszeAd(int c, int d){
-        return c+d;
+    private int osszeAd(int a, int b){
+        return a+b;
     }
 }
