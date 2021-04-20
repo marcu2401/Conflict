@@ -28,8 +28,11 @@ public class MainActivity extends AppCompatActivity {
                 i.putExtra("valami" ,valami.getText().toString());
                 startActivity(i);
 
-
             }
         });
+
+    }
+    private int osszeAd(int c, int d){
+        return c+d;
     }
 }
